@@ -1,0 +1,10 @@
+Funcionamiento de GIT
+1- Clonar el repositorio remoto al repositorio local 
+Para clonar el principal: git clone https://github.com/djoaquinalvarez/GIGABYTE.git
+Para clonar la rama deseada: git clone https://github.com/djoaquinalvarez/GIGABYTE.git -b teite --single-branch
+
+2- Actualizar el repositorio remoto con los cambios realizados
+git add . 
+git commit -m 'mensaje' 
+git push 
+

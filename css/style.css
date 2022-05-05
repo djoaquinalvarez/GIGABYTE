@@ -1,0 +1,93 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Overpass','Ubuntu', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+/* Global */
+img {
+    max-width: 100%;
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto 0 auto;
+}
+h3{
+    font-size: 3.2rem;
+}
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/* Section */
+.laptop-seccion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenido-seccion {
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    
+}
+#img-laptop {
+    height:60rem;
+    position: relative;
+    right: 30%;
+}
+.contenido-seccion h3 {
+    margin:0 ;
+    color:  hsl(208, 49%, 24%);
+    font-size: 20px;
+    
+}
+.contenido-seccion p {
+    color:  hsl(207, 13%, 34%);
+    font-size: 16px;
+    margin-bottom: 5rem;
+}
+/* Footer */
+.site-footer {
+    background-color: hsl(240, 10%, 16%);
+    padding: 1rem 30rem 3rem 15rem;
+    border-top-right-radius: 8rem;
+
+}
+#logo-footer{
+    height: 3rem;
+}
+.contenido-footer {
+    height: 10%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.contenido-nav {
+    display: flex;
+    flex-direction: column;
+    color: hsl(240, 2%, 79%);
+    margin-top: 3rem;
+}
+.contenido-nav p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+.contenido-nav a{
+    color: hsl(240, 2%, 79%);
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.contenido-nav a:hover{
+    text-decoration: underline;
+}
